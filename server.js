@@ -10,7 +10,7 @@ app.use(cors())
 
 // Routes
 app.get('/', (req, res) => {
-  res.send('Api is running'); 
+  res.send('Api is running successfully'); 
 });
 
 app.listen(port, () => {
